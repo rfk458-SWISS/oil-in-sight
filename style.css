@@ -16,6 +16,12 @@ th, td { text-align: left; vertical-align: top; padding: 8px; border: 1px solid 
 th { background: var(--texte); color: #FFFFFF; }
 .liens { list-style: none; padding: 0; }
 .liens li { padding: 10px 0; border-bottom: 1px solid var(--bord); }
+.etapes { list-style: none; padding: 0; margin: 20px 0; }
+.etapes li { margin: 0 0 22px; }
+.bouton { display: block; text-align: center; padding: 16px; border-radius: 10px; background: var(--texte); color: var(--jaune); font-weight: 700; font-size: 18px; text-decoration: none; }
+.bouton:active { opacity: .85; }
+.etapes p { color: var(--texte2); font-size: 15px; margin: 8px 2px 0; }
+.note { color: var(--texte2); font-size: 14px; }
 footer { max-width: 760px; margin: 0 auto; padding: 16px; color: var(--texte2); font-size: 14px; border-top: 1px solid var(--bord); }
 footer a { color: var(--texte2); }
 @media (max-width: 520px) { table, tr, td, th { font-size: 13px; } th, td { padding: 6px; } }
